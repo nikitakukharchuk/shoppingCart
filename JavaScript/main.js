@@ -51,6 +51,11 @@ function quantityChanged(event) {
   updateTotal();
 }
 
+function addCartClicked(event) {
+  let button = event.target;
+  let shopProducts = button.parentElemen;
+}
+
 function updateTotal() {
   let cartContent = document.getElementsByClassName("cart-content")[0];
   let cartBoxes = cartContent.getElementsByClassName("cart-box");
